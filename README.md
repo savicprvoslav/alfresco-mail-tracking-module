@@ -1,7 +1,7 @@
 alfresco-mail-tracking-module
 =============================
 
-Allows alfresco to track if user has opened email that it was sent to him. 
+Allows alfresco to track if user has opened email that it was sent. 
 
 This project done using alfresco maven sdk you can find tutorial here http://alfrescoblog.com/2014/05/10/maven-alfresco-sdk/
 
