@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Definition of new Model -->
+<model name="ab:contentmodel" xmlns="http://www.alfresco.org/model/dictionary/1.0">
+	<description>Alfresco Blog Custom Model</description>
+	<author>Ares</author>
+	<published>2014-05-17</published>
+	<version>1.0</version>
+
+	<imports>
+		<import uri="http://www.alfresco.org/model/dictionary/1.0"
+			prefix="d" />
+		<import uri="http://www.alfresco.org/model/content/1.0" prefix="cm" />
+	</imports>
+
+	<namespaces>
+		<namespace uri="http://www.alfrescoblog.com/model/data/1.0"
+			prefix="ab" />
+	</namespaces>
+
+
+	<types>
+		<type name="ab:emailTracked">
+			<title>Track Email</title>
+			<parent>cm:folder</parent>
+			<properties>
+				<property name="ab:subject">
+					<type>d:text</type>
+					<mandatory>true</mandatory>
+				</property>
+				<property name="ab:mailDate">
+					<type>d:date</type>
+					<mandatory>true</mandatory>
+				</property>
+
+				<property name="ab:sender">
+					<type>d:text</type>
+					<mandatory>true</mandatory>
+				</property>
+				<property name="ab:receiver">
+					<type>d:text</type>
+					<mandatory>true</mandatory>
+				</property>
+				<property name="ab:opened">
+					<type>d:boolean</type>
+					<mandatory>true</mandatory>
+				</property>
+				<property name="ab:openedDate">
+					<type>d:date</type>
+					<mandatory>true</mandatory>
+				</property>
+			</properties>
+		</type>
+
+
+
+
+	</types>
+
+
+
+
+
+
+</model>
+
+   
+   

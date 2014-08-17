@@ -1,0 +1,9 @@
+<webscript>
+  <shortname>Track evetn</shortname>
+  <description>Track Event</description>
+  <url>/track</url>
+  <format default="html">argument</format>
+  <authentication>none</authentication>
+  <transaction>required</transaction>
+</webscript>
+

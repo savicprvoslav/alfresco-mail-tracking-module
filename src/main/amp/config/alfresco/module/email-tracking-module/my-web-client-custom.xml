@@ -1,0 +1,22 @@
+<alfresco-config>
+	<config>
+		<client>
+			<breadcrumb-mode>location</breadcrumb-mode>
+		</client>
+	</config>
+
+
+	<config evaluator="node-type" condition="ab:emailTracked">
+		<property-sheet>
+			<show-property name="ab:subject" read-only="true" />
+			<show-property name="ab:receiver" read-only="true" />
+
+			<show-property name="ab:mailDate" read-only="true" />
+			<show-property name="ab:opened" read-only="true" />
+			<show-property name="ab:openedDate" read-only="true" />
+		
+			
+			
+		</property-sheet>
+	</config>
+</alfresco-config>
