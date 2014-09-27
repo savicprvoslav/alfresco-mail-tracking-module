@@ -14,4 +14,6 @@ http://alfrescoblog.com/2014/08/17/alfresco-email-tracking-part-i/
 
 
 Copyright 2014 Savic Prvoslav
+
+
 Distributed under the Creative Commons Attribution-ShareAlike 3.0 Unported License (CC BY-SA 3.0)
